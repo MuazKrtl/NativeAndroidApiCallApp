@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Invio" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#fff49c</item>
+        <item name="colorPrimaryVariant">#9ca7ff</item>
+        <item name="colorOnPrimary">#fff49c</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#fff49c</item>
+        <item name="colorSecondaryVariant">#fff49c</item>
+        <item name="colorOnSecondary">#fff49c</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+</resources>
